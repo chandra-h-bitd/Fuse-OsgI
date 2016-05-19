@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="greeterservice" activate="init" deactivate="destroy">
+        <implementation class="com.redhat.gpe.training.osgi.service.impl.GreeterImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.redhat.gpe.training.osgi.service.Greeter"/>
+        </service>
+        <property name="DEFAULT_RESPONSE" value="Hi there from the OSGi greeter service..."/>
+        <property name="service.pid" value="greeterservice"/>
+    </scr:component>
+</components>

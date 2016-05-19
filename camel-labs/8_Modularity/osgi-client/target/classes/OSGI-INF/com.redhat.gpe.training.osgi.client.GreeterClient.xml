@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="greeterclient" activate="init" deactivate="destroy">
+        <implementation class="com.redhat.gpe.training.osgi.client.GreeterClient"/>
+        <property name="DEFAULT_REQUEST" value="I'm the Greeter Client"/>
+        <property name="service.pid" value="greeterclient"/>
+        <reference name="greeterService" interface="com.redhat.gpe.training.osgi.service.Greeter" cardinality="1..1" policy="static" bind="bindGreeterService" unbind="unbindGreeterService"/>
+    </scr:component>
+</components>

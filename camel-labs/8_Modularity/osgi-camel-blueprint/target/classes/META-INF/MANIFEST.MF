@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1447652467212
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: RedHat GPE Training :: Camel :: Lab :: 8 :: OSGi :: Camel B
+ lueprint
+Bundle-SymbolicName: com.redhat.gpe.training.osgi-camel-blueprint
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.redhat.gpe.training.osgi.service;version="[1.0,2)",o
+ rg.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Import-Service: com.redhat.gpe.training.osgi.service.Greeter;multiple:=f
+ alse
+Tool: Bnd-1.50.0
