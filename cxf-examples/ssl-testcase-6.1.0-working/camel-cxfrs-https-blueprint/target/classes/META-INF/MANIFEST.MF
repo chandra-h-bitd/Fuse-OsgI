@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1458233865044
+Build-Jdk: 1.7.0_91
+Built-By: kkakarla
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-cxfrs-https-blueprint
+Bundle-SymbolicName: org.jboss.fuse.samples.camel-cxfrs-https-blueprint
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.component.cxf.jaxrs.testbean;uses:="jav
+ ax.ws.rs,javax.ws.rs.core,javax.xml.bind.annotation";version="1.0.0"
+Import-Package: javax.ws.rs;version="[2.0,3)",javax.ws.rs.core;version="
+ [2.0,3)",javax.xml.bind.annotation,org.codehaus.jackson.jaxrs;version="
+ [1.9,2)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.slf4j;v
+ ersion="[1.7,2)"
+Tool: Bnd-2.1.0.20130426-122213

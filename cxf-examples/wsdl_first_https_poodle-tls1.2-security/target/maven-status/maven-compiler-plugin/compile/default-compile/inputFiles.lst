@@ -1,0 +1,10 @@
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/target/generated-sources/cxf/org/apache/hello_world_soap_http/Greeter.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/target/generated-sources/cxf/org/apache/hello_world_soap_http/types/GreetMeResponse.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/src/main/java/demo/hw_https/server/GreeterImpl.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/target/generated-sources/cxf/org/apache/hello_world_soap_http/types/package-info.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/target/generated-sources/cxf/org/apache/hello_world_soap_http/types/ObjectFactory.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/target/generated-sources/cxf/org/apache/hello_world_soap_http/SOAPService.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/src/main/java/demo/hw_https/client/ClientNonSpring.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/src/main/java/demo/hw_https/client/Client.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/src/main/java/demo/hw_https/server/Server.java
+/home/kkakarla/Development/Camel-Fuse-Examples/cxf/wsdl_first_https_poodle/target/generated-sources/cxf/org/apache/hello_world_soap_http/types/GreetMe.java

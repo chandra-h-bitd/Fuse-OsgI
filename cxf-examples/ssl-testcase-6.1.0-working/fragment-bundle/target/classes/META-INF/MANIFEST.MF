@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1458233699342
+Build-Jdk: 1.7.0_91
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: cxf-api Fragment Bundle for Resources
+Bundle-SymbolicName: org.jboss.fuse.samples.fragment-bundle
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Fragment-Host: org.apache.cxf.cxf-api
+Private-Package: keystore
+Tool: Bnd-1.50.0

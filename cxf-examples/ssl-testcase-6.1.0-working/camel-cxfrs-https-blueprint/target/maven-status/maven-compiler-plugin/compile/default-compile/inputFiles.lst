@@ -1,0 +1,4 @@
+/home/kkakarla/Development/Camel-Fuse-Examples/osgi-projects/ssl-testcase-6.1.0-working/camel-cxfrs-https-blueprint/src/main/java/org/apache/camel/component/cxf/jaxrs/testbean/Product.java
+/home/kkakarla/Development/Camel-Fuse-Examples/osgi-projects/ssl-testcase-6.1.0-working/camel-cxfrs-https-blueprint/src/main/java/org/apache/camel/component/cxf/jaxrs/testbean/Order.java
+/home/kkakarla/Development/Camel-Fuse-Examples/osgi-projects/ssl-testcase-6.1.0-working/camel-cxfrs-https-blueprint/src/main/java/org/apache/camel/component/cxf/jaxrs/testbean/CustomerService.java
+/home/kkakarla/Development/Camel-Fuse-Examples/osgi-projects/ssl-testcase-6.1.0-working/camel-cxfrs-https-blueprint/src/main/java/org/apache/camel/component/cxf/jaxrs/testbean/Customer.java

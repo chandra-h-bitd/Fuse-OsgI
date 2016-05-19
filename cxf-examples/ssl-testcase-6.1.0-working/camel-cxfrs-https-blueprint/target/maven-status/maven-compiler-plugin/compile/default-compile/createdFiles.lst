@@ -1,0 +1,5 @@
+org/apache/camel/component/cxf/jaxrs/testbean/Product.class
+org/apache/camel/component/cxf/jaxrs/testbean/CustomerService$1.class
+org/apache/camel/component/cxf/jaxrs/testbean/Customer.class
+org/apache/camel/component/cxf/jaxrs/testbean/Order.class
+org/apache/camel/component/cxf/jaxrs/testbean/CustomerService.class
