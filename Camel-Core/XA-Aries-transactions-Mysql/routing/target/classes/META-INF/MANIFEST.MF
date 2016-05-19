@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1451373137496
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: XAAries transactions
+Bundle-SymbolicName: route1
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.route1;version="1.0.0"
+Import-Package: javax.sql,org.apache.camel.spring.spi,org.osgi.service.b
+ lueprint;version="[1.0.0,2.0.0)",org.springframework.transaction
+Import-Service: javax.sql.DataSource;multiple:=false;filter="(datasource
+ .name=mysql1XADS)",javax.sql.DataSource;multiple:=false;filter="(dataso
+ urce.name=mysql2XADS)",org.springframework.transaction.PlatformTransact
+ ionManager;multiple:=false;filter="(objectClass=org.apache.aries.transa
+ ction.AriesTransactionManager)"
+Tool: Bnd-1.50.0

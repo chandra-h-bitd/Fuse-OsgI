@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1451040511773
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-Blueprint: OSGI-INF/blueprint/routing.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: JBoss Fuse :: Examples :: Transactions :: Routing
+Bundle-SymbolicName: routing
+Bundle-Version: 6.2.0
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.persistence,org.apache.activemq,org.apache.activem
+ q.camel.component;version="[5.11,6)",org.apache.activemq.jms.pool;versi
+ on="[5.11,6)",org.apache.activemq.pool,org.apache.camel;version="[2.15,
+ 3)",org.apache.camel.component.jms;version="[2.15,3)",org.apache.camel.
+ component.jpa,org.apache.camel.model;version="[2.15,3)",org.apache.came
+ l.spring;version="[2.15,3)",org.apache.camel.spring.spi;version="[2.15,
+ 3)",org.apache.geronimo.transaction.manager,org.jboss.fuse.examples.tra
+ nsactions.model;version="[6.2,7)",org.osgi.service.blueprint;version="[
+ 1.0.0,2.0.0)",org.springframework.transaction
+Include-Resource: OSGI-INF/blueprint/routing.xml=src/main/resources/OSGI
+ -INF/blueprint/routing.xml
+Private-Package: org.jboss.fuse.examples.transactions.routes
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.3.0.201405100607

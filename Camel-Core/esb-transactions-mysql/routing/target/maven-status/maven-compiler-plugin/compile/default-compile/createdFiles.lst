@@ -1,0 +1,4 @@
+org/jboss/fuse/examples/transactions/routes/TransactionalRouteBuilder.class
+org/jboss/fuse/examples/transactions/routes/TransactionalRouteBuilder$1.class
+org/jboss/fuse/examples/transactions/routes/Airports.class
+org/jboss/fuse/examples/transactions/routes/TransactionalRouteBuilder$ConvertToJpaBeanProcessor.class

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1460022663797
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: Finalist :: JPA Reproducer
+Bundle-SymbolicName: jpa-repository
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.mycompany.test.interfaces;version="1.0.0.SNAPSHOT";u
+ ses:="com.mycompany.test.jpa.model",com.mycompany.test.jpa.model;versio
+ n="1.0.0.SNAPSHOT";uses:="javax.persistence"
+Export-Service: com.mycompany.test.interfaces.HibenrateBasicSystemInterf
+ ace
+Import-Package: com.mycompany.test.interfaces;version="[1.0,2)",com.myco
+ mpany.test.jpa.model;version="[1.0,2)",javax.persistence,org.osgi.servi
+ ce.blueprint;version="[1.0.0,2.0.0)",org.hibernate.proxy;version="[4.2,
+ 4.3)",org.hibernate.ejb;version="[4.2,4.3)",javax.persistence.criteria;
+ version="[2.0,2.1)",javax.sql,org.hibernate;version="[4.2,4.3)",javassi
+ st.util.proxy;version="[3.18,4)"
+JPA-PersistenceUnits: jpa-repository
+Meta-Persistence: META-INF/persistence.xml
+Tool: Bnd-2.1.0.20130426-122213

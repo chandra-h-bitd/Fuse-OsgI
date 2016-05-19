@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1451040511361
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: JBoss Fuse :: Examples :: Transactions :: Database
+Bundle-SymbolicName: database
+Bundle-Version: 6.2.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.jboss.fuse.examples.transactions.model;uses:="javax.
+ persistence";version="6.2.0"
+Import-Package: javax.persistence;version="[2.0,2.1)",javax.persistence.
+ criteria;version="[2.0,2.1)",org.hibernate;version="[4.2,4.3)",org.hibe
+ rnate.proxy;version="[4.2,4.3)",org.hibernate.ejb;version="[4.2,4.3)",j
+ avassist.util.proxy;version="[3.18,4)",javax.sql
+Include-Resource: {META-INF/persistence.xml=src/main/resources-filtered/
+ postgresql/META-INF/persistence.xml}
+Meta-Persistence: META-INF/persistence.xml
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.3.0.201405100607

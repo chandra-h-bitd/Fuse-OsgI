@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1454917066254
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: CamelNett4Http Blueprint Route1
+Bundle-SymbolicName: camel-netty4-http
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.redhat;version="1.0.0"
+Import-Package: org.apache.camel.component.netty4.http,org.osgi.service.
+ blueprint;version="[1.0.0,2.0.0)"
+Import-Service: org.apache.camel.component.netty4.http.NettySharedHttpSe
+ rver;multiple:=false
+Tool: Bnd-1.50.0

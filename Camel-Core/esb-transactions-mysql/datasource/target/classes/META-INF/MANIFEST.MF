@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1451040511001
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-Blueprint: OSGI-INF/blueprint/datasource.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: JBoss Fuse :: Examples :: Transactions :: Datasource
+Bundle-SymbolicName: datasource
+Bundle-Version: 6.2.0
+Created-By: Apache Maven Bundle Plugin
+Export-Service: javax.sql.XADataSource;osgi.jndi.service.name=jdbc/trans
+ actionsdbxa;aries.xa.name=transactionsdbxa;aries.xa.username=[[jdbc.use
+ r]];aries.xa.password=[[jdbc.password]];aries.xa.pooling=true;aries.xa.
+ poolMaxSize=10;aries.xa.poolMinSize=0;aries.xa.transaction=xa;aries.xa.
+ exceptionSorter=known,javax.sql.DataSource;osgi.jndi.service.name=jdbc/
+ transactionsdb;aries.xa.name=transactionsdb;aries.xa.username=[[jdbc.us
+ er]];aries.xa.password=[[jdbc.password]];aries.xa.pooling=true;aries.xa
+ .poolMaxSize=10;aries.xa.poolMinSize=0;aries.xa.transaction=local;aries
+ .xa.exceptionSorter=known
+Import-Package: com.mysql.jdbc.jdbc2.optional;version="[5.1,6)",javax.sq
+ l,org.apache.commons.dbcp,org.osgi.service.blueprint;version="[1.0.0,2.
+ 0.0)"
+Tool: Bnd-2.3.0.201405100607

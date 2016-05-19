@@ -1,0 +1,24 @@
+
+This example works in Fuse 6.2.0 with Mysql database
+
+Run below statements to create database
+
+Mysql1>DROP SCHEMA IF EXISTS transactions CASCADE;
+
+CREATE SCHEMA transactions;
+
+CREATE TABLE transactions.FLIGHTS (
+  number    VARCHAR(12) NOT NULL,
+  departure VARCHAR(3),
+  arrival   VARCHAR(3)
+);
+
+Mysql2>DROP SCHEMA IF EXISTS transactions2 CASCADE;
+
+CREATE SCHEMA transactions2;
+
+CREATE TABLE transactions2.PLANES (
+  number    VARCHAR(12) NOT NULL,
+  departure VARCHAR(3),
+  arrival   VARCHAR(3)
+);

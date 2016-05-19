@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1451371139798
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: Mysql2 Data source
+Bundle-SymbolicName: mysql2
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Service: javax.sql.XADataSource;osgi.jndi.service.name="jdbc/mysq
+ l2XADS";aries.xa.name="mysql2.xa";datasource.name=mysql2XADS;aries.xa.u
+ sername=root;aries.xa.password=admin;aries.xa.pooling=true;aries.xa.poo
+ lMaxSize=10;aries.xa.poolMinSize=0;aries.xa.transaction=xa;aries.xa.exc
+ eptionSorter=known
+Import-Package: com.mysql.jdbc.jdbc2.optional,javax.sql,org.osgi.service
+ .blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
