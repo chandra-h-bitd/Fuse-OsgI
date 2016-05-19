@@ -1,0 +1,33 @@
+
+Cloning fabric git repository does not retrieve all versions
+Solution Verified - Updated February 11 2015 at 3:18 PM - English
+Environment
+
+    Red Hat JBoss Fuse
+        Version 6.1.0 GA
+        Version 6.0.0 GA
+
+Issue
+
+In a Fuse fabric, the configuration can be copied and manipulated by cloning the fabric's git repository from an instance's HTTP port as follows:
+Raw
+
+git clone -b 1.0 http://admin:admin@localhost:8181/git/fabric
+
+The branch (-b) indicates the profile version you wish to clone. 1.0 denotes the default profile version 1.0.
+
+Executing version-create in the Fuse console creates a new branch in the git repository but, on some occasions, cloning the repository does not show all branches or, consequently, all versions of the fabric configuration.
+Resolution
+
+Before cloning the fabric repository, determine which fabric instance is currently playing the role of master git repository:
+Raw
+
+fabric:cluster-list | grep fabric-repo
+
+Ensure that you only clone that particular repository. Any other instance will have a repository that might not be up to date.
+Root Cause
+
+The git repository is only updated from the distributed configuration held by the fabric's Apache Zookeeper infrastructure when a particular fabric instance takes over the role of master git repository. Only one instance will have that role at any given time. This is not considered to be a defect -- the fabric does not need multiple copies of the git repository, as the primary configuration store is in Zookeeper.
+
+Future releases of Fuse will not expose the git repository of an instance that does not have the latest configuration, and this problem will be avoided.
+

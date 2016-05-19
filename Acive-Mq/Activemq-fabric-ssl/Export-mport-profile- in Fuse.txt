@@ -1,0 +1,31 @@
+
+Export/Import profile in Fuse 6.1
+Solution Verified - Updated April 30 2015 at 7:02 AM - English
+Environment
+
+    Red Hat JBoss Fuse
+        6.1.0
+
+Issue
+
+    How to export/import profile in Fuse 6.1?
+    We are building a Fabric automatically from a single script. We want to include a file in the fabric (a new broker file) I have included this on the file system prior to building the Fabric inside of Karaf.
+    How do I script the upload of a file - the command:
+    fabric:profile-edit --resource
+    can EDIT a file interactively, but cannot load a file from the file system.
+    Cannot add files to a profile using CLI is there any alternative approach do we have ?
+    I'd like to be able to upload files to a profile from a Fuse script. However, the profile-edit command does not seem to have an option to do this.
+
+Resolution
+
+In Fuse 6.1, Fabric8 stores all of its configuration files in Git repositories; so that all configuration changes are audited and versioned.You can first create your profile through the hawtio console, and make sure it can work. then you can backup your profile through git clone, then edit/commit the file modifications to the fabric by using the following steps:
+
+    Clone the configurations to your local file system by using git clone -b 1.0 http://admin:admin@localhost:8181/git/fabric
+    Edit files like broker.xml file in the <git>/fabric/fabric/profiles/mq/amq.profile, for example add the database-persistence/jdbc-persistence part to the file, Save and exit.
+    Or you can create/add files
+    Commit the change with the following command
+        git commit -a -m "my new changes"
+        git push
+
+you can ref http://fabric8.io/gitbook/git.html for more info.
+
