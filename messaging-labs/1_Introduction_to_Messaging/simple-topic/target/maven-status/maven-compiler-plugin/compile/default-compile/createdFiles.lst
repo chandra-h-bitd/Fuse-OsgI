@@ -1,0 +1,3 @@
+com/redhat/gpe/training/messaging/topic/SimplePublisher.class
+com/redhat/gpe/training/messaging/topic/SimpleSubscriber$JmsMessageListener.class
+com/redhat/gpe/training/messaging/topic/SimpleSubscriber.class
