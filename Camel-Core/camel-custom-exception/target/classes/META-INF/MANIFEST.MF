@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1470130748241
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Blueprint Route
+Bundle-SymbolicName: camel-custom-exception
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.redhat.custom.exception;uses:="org.slf4j,org.apache.
+ camel";version="1.0.0"
+Import-Package: org.apache.camel;version="[2.15,3)",org.osgi.service.blu
+ eprint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,2)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.50.0
