@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1469191707071
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Blueprint Route
+Bundle-SymbolicName: recipient-aggregate
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.redhat.recipient.aggregate;uses:="org.apache.camel,o
+ rg.apache.camel.processor.aggregate";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.camel;version="[2.15,3)",org.apache.camel.pro
+ cessor.aggregate;version="[2.15,3)",org.osgi.service.blueprint;version=
+ "[1.0.0,2.0.0)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.50.0
