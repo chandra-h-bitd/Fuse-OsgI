@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1472226067804
+Build-Jdk: 1.8.0_66
+Built-By: kkakarla
+Bundle-ManifestVersion: 2
+Bundle-Name: cxf-https-client
+Bundle-SymbolicName: cxf-https-client
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.mycompany.cxf.soap.endpoint;uses:="org.apache.cxf.me
+ ssage,org.apache.camel,com.mycompany.cxf.soap.model,org.apache.log4j";v
+ ersion="1.0.0",com.mycompany.cxf.soap.model;uses:="javax.xml.bind.annot
+ ation,javax.xml.namespace,javax.xml.bind,javax.xml.ws,javax.jws";versio
+ n="1.0.0"
+Import-Package: javax.jws,javax.servlet,javax.xml.bind,javax.xml.bind.an
+ notation,javax.xml.namespace,javax.xml.ws,org.apache.camel;version="[2.
+ 15,3)",org.apache.cxf.message;version="[3.0,4)",org.apache.log4j;versio
+ n="[1.2,2)",org.eclipse.jetty.server,org.osgi.service.blueprint;version
+ ="[1.0.0,2.0.0)",org.osgi.service.blueprint.container,org.slf4j;version
+ ="[1.7,2)"
+Tool: Bnd-1.50.0
