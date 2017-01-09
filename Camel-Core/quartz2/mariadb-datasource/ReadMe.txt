@@ -15,6 +15,7 @@ or Apache Karaf. You can run the following command from its shell:
 features:install jndi camel-quartz2
 osgi:install -s mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3
 osgi:install -s mvn:org.mariadb.jdbc/mariadb-java-client/1.4.6
+osgi:install -s mvn:mysql/mysql-connector-java/5.1.37
 osgi:install -s mvn:com.mycompany/mariadb-datasource/1.0.0-SNAPSHOT
 osgi:install -s mvn:com.mycompany/quartz2cluster/1.0.0-SNAPSHOT
 
