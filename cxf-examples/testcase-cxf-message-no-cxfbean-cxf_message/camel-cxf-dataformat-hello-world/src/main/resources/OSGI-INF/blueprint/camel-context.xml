@@ -45,7 +45,7 @@
     </camelcxf:cxfEndpoint>
 -->
 
-    <bean id="requestProcessor" class="org.jboss.fuse.samples.processor.MyRequestProcessor" >
+    <bean id="requestProcessor" class="org.jboss.fuse.samples.processor.MyRequestProcessor">
         <property name="dataFormat" value="CXF_MESSAGE" />
     </bean>
 

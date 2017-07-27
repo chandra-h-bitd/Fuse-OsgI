@@ -9,7 +9,7 @@
 
 	<properties>
 		<camel.version>2.15.1.redhat-621084</camel.version>
-		<cxf.version>3.0.4</cxf.version>
+		<cxf.version>3.0.4.redhat-621084</cxf.version>
 	</properties>
 
 	<dependencies>

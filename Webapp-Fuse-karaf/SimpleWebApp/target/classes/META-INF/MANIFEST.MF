@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1501161731850
+Build-Jdk: 1.8.0_121
+Built-By: kkakarla
+Bundle-ClassPath: .,WEB-INF/classes
+Bundle-ManifestVersion: 2
+Bundle-Name: SimpleServlet
+Bundle-SymbolicName: UploadServlet
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: javax.*, org.xml.sax, org.xml.sax.*,org.w3c.*
+Embed-Dependency: *;scope=compile|runtime
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: true
+Import-Package: org.apache.commons.fileupload;version="[1.2,2)",org.apac
+ he.commons.fileupload.disk;version="[1.2,2)",org.apache.commons.fileupl
+ oad.servlet;version="[1.2,2)",javax.servlet;version="[3.1,4)",javax.ser
+ vlet.http;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906
+Web-ContextPath: UploadServlet
+Webapp-Context: UploadServlet
